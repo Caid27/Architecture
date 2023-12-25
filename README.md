@@ -44,3 +44,11 @@ https://drive.google.com/drive/folders/1Keww2JHH4Pqx_Oe5Q6hp641t-weU2vPd?usp=sha
 ```
 
 在项目中提供我本地conda环境的yml文件：mycontent_caching.yml
+
+## 运行
+```
+python main.py --batch_size=256 --lr=0.001 --factor_num=16
+```
+也可以直接运行main.py文件
+
+

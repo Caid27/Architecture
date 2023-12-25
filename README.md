@@ -23,8 +23,11 @@ channels:
 show_channel_urls: true
 
 
+
 ### 使用如下语句直接导入yml文件
 ```
 conda create env export content_caching.yml
 ```
 若没有报错则成功安装，若出现依赖项报错，则再将yml文件中的依赖项先删去，成功下载后再使用```pip```或```conda install``` 安装。
+
+当

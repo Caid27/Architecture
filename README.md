@@ -51,4 +51,8 @@ python main.py --batch_size=256 --lr=0.001 --factor_num=16
 ```
 也可以直接运行main.py文件
 
+## 原论文github地址
+```
+https://github.com/heshameraqi/Proactive-Content-Caching-with-Deep-Learning
+```
 

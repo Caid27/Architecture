@@ -24,10 +24,23 @@ show_channel_urls: true
 
 
 
-### 使用如下语句直接导入yml文件
+## 使用如下语句直接导入yml文件
 ```
 conda create env export content_caching.yml
 ```
+
+
+## 常见错误的解决方法
 若没有报错则成功安装，若出现依赖项报错，则再将yml文件中的依赖项先删去，成功下载后再使用```pip```或```conda install``` 安装。
 
-当
+当出现此时的错误时，将yml文件中对于的依赖项删去，等待顺利安装完成后再逐个进行pip安装。（或者再代码运行时，通过查看哪一个库无法import再逐个安装）。
+
+![image](图片1.png)
+
+如果这种方法仍在安装时产生过多库冲突，则直接创建content_caching 环境，根据main运行时缺少的库与本地环境进行逐个安装。
+在这里下载训练所需的数据。
+```
+https://drive.google.com/drive/folders/1Keww2JHH4Pqx_Oe5Q6hp641t-weU2vPd?usp=sharing
+```
+
+在项目中提供我本地conda环境的yml文件：mycontent_caching.yml
